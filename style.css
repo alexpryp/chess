@@ -1,0 +1,36 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	color: #fff;
+	background-image: linear-gradient(-90deg, #d6c29c, #75572f);
+}
+h1, p {
+	text-align: center;
+	margin: 5px;
+}
+h1 {
+	font-size: 2em;
+}
+p {
+	font-size: 1.5em;
+	margin-bottom: 15px;
+}
+#field, #chessmen {
+	width: 658px;
+}
+.chessman {
+	cursor: pointer;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 1250px) {
+	.wrapper {
+		flex-wrap: wrap;
+	}
+}
