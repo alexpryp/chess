@@ -24,13 +24,13 @@ p {
 .chessman {
 	cursor: pointer;
 }
-.wrapper {
+#wrapper {
 	display: flex;
 	justify-content: center;
 }
 
 @media only screen and (max-width: 1250px) {
-	.wrapper {
+	#wrapper {
 		flex-wrap: wrap;
 	}
 }
